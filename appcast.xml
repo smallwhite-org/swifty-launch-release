@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>SwiftyLaunch</title>
+        <item>
+            <title>0.9</title>
+            <pubDate>Sat, 24 Feb 2024 11:48:56 +0100</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="91937768" type="application/octet-stream" sparkle:edSignature="nHAaRfdCyQCdT22akkadxIsgTBN83dcFaWqQTrYfkDQKpdyx3petAz5mI9X/cU7eIUAQ7TlAQzVjQzFbeu1AAQ=="/>
+        </item>
+    </channel>
+</rss>
