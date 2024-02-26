@@ -23,7 +23,7 @@
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://smallwhite-org.github.io/swifty-launch-release/SwiftyLaunch.dmg" length="37145192" type="application/octet-stream" sparkle:edSignature="YhzyRRF9sg2zw4lST+OV73E+mVxtlBM7tv6XV7F5ueyr7ubPaw2JldW6LlX+X/FiiwZ/GYVilh5IMRNr2WtWCA=="/>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37145192" type="application/octet-stream" sparkle:edSignature="YhzyRRF9sg2zw4lST+OV73E+mVxtlBM7tv6XV7F5ueyr7ubPaw2JldW6LlX+X/FiiwZ/GYVilh5IMRNr2WtWCA=="/>
         </item>
     </channel>
 </rss>
