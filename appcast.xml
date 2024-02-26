@@ -3,12 +3,27 @@
     <channel>
         <title>SwiftyLaunch</title>
         <item>
+            <title>0.9</title>
+            <pubDate>Sat, 24 Feb 2024 12:23:55 +0100</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="92267713" type="application/octet-stream" sparkle:edSignature="husFpC06s7kLGqCTtCn+hoFoUw5jEe24cVnApjC8toH5ZJ2g8tAWvdDPHCVsODMrm++ub4fnTXTNnZK/XWKbDg=="/>
+            <description><![CDATA[
+				<h2>New Features</h2>
+				<ul>
+					<li>Support for macOS 13.0</li>
+					<li>Testing Auto-Updates</li>
+				</ul>
+			]]></description>
+        </item>
+        <item>
             <title>1.0</title>
             <pubDate>Mon, 26 Feb 2024 19:37:32 +0100</pubDate>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37145192" type="application/octet-stream" sparkle:edSignature="YhzyRRF9sg2zw4lST+OV73E+mVxtlBM7tv6XV7F5ueyr7ubPaw2JldW6LlX+X/FiiwZ/GYVilh5IMRNr2WtWCA=="/>
+            <enclosure url="https://smallwhite-org.github.io/swifty-launch-release/SwiftyLaunch.dmg" length="37145192" type="application/octet-stream" sparkle:edSignature="YhzyRRF9sg2zw4lST+OV73E+mVxtlBM7tv6XV7F5ueyr7ubPaw2JldW6LlX+X/FiiwZ/GYVilh5IMRNr2WtWCA=="/>
         </item>
     </channel>
 </rss>
