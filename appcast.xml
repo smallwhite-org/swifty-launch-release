@@ -3,9 +3,17 @@
     <channel>
         <title>SwiftyLaunch</title>
         <item>
+            <title>1.0.2</title>
+            <pubDate>Sat, 02 Mar 2024 21:49:28 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37460480" type="application/octet-stream" sparkle:edSignature="smdD7FcJYRZXNScsxn8GS9tq+3t+aqEai+TzLWBy85erfl2zeX5GeZh5FtZeAcoV9wr95ereLNN838tE4DliAw=="/>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Wed, 28 Feb 2024 23:30:58 +0100</pubDate>
-            <sparkle:version>101</sparkle:version>
+            <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37459386" type="application/octet-stream" sparkle:edSignature="KqQACKUFP7//KRTA+jgrOGvj9a3ocE8ZivPnrHa4o9sQFSZgiGnZmMIZOzCizkU5j2GZGaUtehDHCZfg6XKtCA=="/>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37455105" type="application/octet-stream" sparkle:edSignature="CJzk/k78OaYBVasFn0VCtqpDzdPqsVl0gXbKnIemCiZKGdjOJ1qE+Y0UIXI1jkYj50d2h0ZCFssy8RpVeswtCQ=="/>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 26 Feb 2024 22:01:42 +0100</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37145928" type="application/octet-stream" sparkle:edSignature="AAG4tJ4fRCsqY5lBKOjR0xCeT1nGZwU/SxmRKfD8Ol727PSji6+MFpOYfVKYYnCFDx8Ed9Z0PcBJwI64saPqBg=="/>
         </item>
     </channel>
 </rss>
