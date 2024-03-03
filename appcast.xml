@@ -2,7 +2,26 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>SwiftyLaunch</title>
-         <item>
+        <item>
+            <title>1.0.4</title>
+            <pubDate>Sun, 03 Mar 2024 22:32:14 +0100</pubDate>
+            <sparkle:version>104</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+			<description><![CDATA[
+				<h2>Hotfix 1.0.4</h2>
+				<ul>
+				<li><b>New Feature:</b> Added a new experimental generation method to fix project generation issues for a limited amount of users.</li>
+				</ul>
+				<h2>Hotfix 1.0.3</h2>
+				<ul>
+				<li><b>Fixed:</b> Start Screen Link now points to a valid URL</li>
+				<li><b>Fixed:</b> Added a more detailed Error description when no Xcode was found.</li>
+				</ul>
+			]]></description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37403157" type="application/octet-stream" sparkle:edSignature="dEXkrz8kxX7VH+oD87RPxGxyGJck/34baP/v8/A0jeUvaPIVHPON3y64PiLr7j9xAPxfcAoZ3DrF4gy4msn1Bw=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Sun, 03 Mar 2024 21:00:45 +0100</pubDate>
             <sparkle:version>103</sparkle:version>
@@ -14,8 +33,7 @@
                     <li><b>Fixed:</b> Start Screen Link now points to a valid URL</li>
                     <li><b>Fixed:</b> Added a more detailed Error description when no Xcode was found.</li>
                 </ul
-            ]]>
-            </description>
+            ]]></description>
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37460991" type="application/octet-stream" sparkle:edSignature="rs3AmAnxv15V+FPeANMnAtsSQVEBrdRGWMcNycEGe9iWJA1fa6xfZ3g328znT+b53mrMEWHa2G6SrH938+2YAA=="/>
         </item>
         <item>
@@ -25,14 +43,6 @@
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37460480" type="application/octet-stream" sparkle:edSignature="smdD7FcJYRZXNScsxn8GS9tq+3t+aqEai+TzLWBy85erfl2zeX5GeZh5FtZeAcoV9wr95ereLNN838tE4DliAw=="/>
-        </item>
-        <item>
-            <title>1.0.1</title>
-            <pubDate>Wed, 28 Feb 2024 23:30:58 +0100</pubDate>
-            <sparkle:version>101</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37459386" type="application/octet-stream" sparkle:edSignature="KqQACKUFP7//KRTA+jgrOGvj9a3ocE8ZivPnrHa4o9sQFSZgiGnZmMIZOzCizkU5j2GZGaUtehDHCZfg6XKtCA=="/>
         </item>
     </channel>
 </rss>
