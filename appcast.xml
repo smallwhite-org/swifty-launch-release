@@ -2,6 +2,22 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>SwiftyLaunch</title>
+         <item>
+            <title>1.0.3</title>
+            <pubDate>Sun, 03 Mar 2024 21:00:45 +0100</pubDate>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Hotfix 1.0.3</h2>
+                <ul>
+                    <li><b>Fixed:</b> Start Screen Link now points to a valid URL</li>
+                    <li><b>Fixed:</b> Added a more detailed Error description when no Xcode was found.</li>
+                </ul
+            ]]>
+            </description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37460991" type="application/octet-stream" sparkle:edSignature="rs3AmAnxv15V+FPeANMnAtsSQVEBrdRGWMcNycEGe9iWJA1fa6xfZ3g328znT+b53mrMEWHa2G6SrH938+2YAA=="/>
+        </item>
         <item>
             <title>1.0.2</title>
             <pubDate>Sat, 02 Mar 2024 21:49:28 +0100</pubDate>
