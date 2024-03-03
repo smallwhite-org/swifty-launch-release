@@ -2,25 +2,6 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>SwiftyLaunch</title>
-    	<item>
-	    <title>1.0.4</title>
-	    <pubDate>Sun, 03 Mar 2024 22:13:20 +0100</pubDate>
-	    <sparkle:version>104</sparkle:version>
-	    <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
-	    <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-	    <description><![CDATA[
-		<h2>Hotfix 1.0.4</h2>
-		<ul>
-		    <li><b>New Feature:</b> Added a new experimental generation option as a fix for generation issues for a limited amount of users.</li>
-		</ul>
-		<h2>Hotfix 1.0.3</h2>
-		<ul>
-		    <li><b>Fixed:</b> Start Screen Link now points to a valid URL</li>
-	     	    <li><b>Fixed:</b> Added a more detailed Error description when no Xcode was found.</li>
-		</ul>
-	    ]]>
-	    <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37404691" type="application/octet-stream" sparkle:edSignature="+0v3V6Ibj5NEw8Mpik2Tg4NWXJy+z65cnsI3O1Z0B60ErFOkSomUeiFZIBXwWYC3OdETUdsTzV/9Yf2oPqiqAQ=="/>
-	</item>
          <item>
             <title>1.0.3</title>
             <pubDate>Sun, 03 Mar 2024 21:00:45 +0100</pubDate>
