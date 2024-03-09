@@ -2,24 +2,7 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>SwiftyLaunch</title>
-        <item>
-            <title>1.1</title>
-            <pubDate>Sat, 09 Mar 2024 19:46:18 +0300</pubDate>
-            <sparkle:version>105</sparkle:version>
-            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-			<description><![CDATA[
-				<h2>Release 1.1</h2>
-				<ul>
-				<li><b>New Feature:</b> In-App Notifications</li>
-				<li><b>New Feature:</b> .sensitiveView View Modifier</li>
-				<li><b>QOL:</b> Improved Error Handling in AuthKit.</li>
-				<li><b>QOL:</b> Up to 60% faster project generation when using Experimental Project Generation Mode (BETA)</li>
-				<li><b>Bug Fixes and Other Improvements</b></li>
-				</ul>
-			]]></description>
-            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37396378" type="application/octet-stream" sparkle:edSignature="pKLwUnA8jgKLdofqtjiQsxmgdiagsue0aye8eQub7TJu2FkAwsUH8eT9usOD5GpeQNOBKz2Pj+PUywYCXPVNDQ=="/>
-        </item>
+
         <item>
             <title>1.0.4</title>
             <pubDate>Sun, 03 Mar 2024 22:32:14 +0100</pubDate>
