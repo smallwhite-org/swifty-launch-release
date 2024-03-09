@@ -2,7 +2,32 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>SwiftyLaunch</title>
-
+        <item>
+            <title>1.1</title>
+            <pubDate>Sat, 09 Mar 2024 21:06:31 +0300</pubDate>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+			<description><![CDATA[
+				<h2>Release 1.1</h2>
+				<ul>
+				<li><b>New Feature:</b> In-App Notifications</li>
+				<li><b>New Feature:</b> .sensitiveView View Modifier</li>
+				<li><b>QOL:</b> Improved Error Handling in AuthKit.</li>
+				<li><b>QOL:</b> Up to 60% faster project generation when using Experimental Project Generation Mode (BETA)</li>
+				<li><b>Bug Fixes and Other Improvements</b></li>
+				</ul>
+			]]></description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37395822" type="application/octet-stream" sparkle:edSignature="6aGA3NKaTPfOzzZq23i4Mz9L8NdacJB0gOsOOhrW9M6goA2a2anf3ICiw2opiSqU9eNhFizIBhOZFNt4KVExAA=="/>
+        </item>
+        <item>
+            <title>1.1</title>
+            <pubDate>Sat, 09 Mar 2024 19:46:18 +0300</pubDate>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37396378" type="application/octet-stream" sparkle:edSignature="pKLwUnA8jgKLdofqtjiQsxmgdiagsue0aye8eQub7TJu2FkAwsUH8eT9usOD5GpeQNOBKz2Pj+PUywYCXPVNDQ=="/>
+        </item>
         <item>
             <title>1.0.4</title>
             <pubDate>Sun, 03 Mar 2024 22:32:14 +0100</pubDate>
@@ -21,21 +46,6 @@
 				</ul>
 			]]></description>
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37403157" type="application/octet-stream" sparkle:edSignature="dEXkrz8kxX7VH+oD87RPxGxyGJck/34baP/v8/A0jeUvaPIVHPON3y64PiLr7j9xAPxfcAoZ3DrF4gy4msn1Bw=="/>
-        </item>
-        <item>
-            <title>1.0.3</title>
-            <pubDate>Sun, 03 Mar 2024 21:00:45 +0100</pubDate>
-            <sparkle:version>103</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>Hotfix 1.0.3</h2>
-                <ul>
-                    <li><b>Fixed:</b> Start Screen Link now points to a valid URL</li>
-                    <li><b>Fixed:</b> Added a more detailed Error description when no Xcode was found.</li>
-                </ul
-            ]]></description>
-            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37460991" type="application/octet-stream" sparkle:edSignature="rs3AmAnxv15V+FPeANMnAtsSQVEBrdRGWMcNycEGe9iWJA1fa6xfZ3g328znT+b53mrMEWHa2G6SrH938+2YAA=="/>
         </item>
     </channel>
 </rss>
