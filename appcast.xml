@@ -3,12 +3,27 @@
     <channel>
         <title>SwiftyLaunch</title>
         <item>
+            <title>1.2.1</title>
+            <pubDate>Sat, 13 Apr 2024 22:16:25 +0200</pubDate>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+			<description><![CDATA[
+				<h2>Release 1.2.1</h2>
+				<ul>
+					<li>Project Generation Stability Improvements</li>
+					<li>Bug fixes</li>
+				</ul>
+			]]></description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="43204529" type="application/octet-stream" sparkle:edSignature="7vZX2T0rZw2xnDoC7hTllfWXbWQvtnfsCCeXPeIsRKvUGe/OTAIzFBN29kxJh1wm0/fkL6qa02GZDePPG1+TAg=="/>
+        </item>
+        <item>
             <title>1.2</title>
             <pubDate>Tue, 02 Apr 2024 01:11:09 +0200</pubDate>
             <sparkle:version>107</sparkle:version>
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-			<description><![CDATA[
+            <description><![CDATA[
 				<h2>Release 1.2</h2>
 				Read about this <a href="https://swiftylaun.ch/blog/introducing-update-1-2">in our blog.</a>
 				<ul>
@@ -18,7 +33,7 @@
 				<li><b>New Feature:</b> Easy-to-use Haptics 📳</li>
 				<li><b>New Feature:</b> Launch Screen 📲</li>
 				<li><b>New Feature:</b> Automatic Notification Routing ↩️🔔</li>
-				<li><b>QOL:</b> Over 15 convenience functions added!</li>
+				<li><b>QOL</b> Over 15 convenience functions added!</li>
 				<li><b>Bug Fixes and Other Improvements</b></li>
 				</ul>
 			]]></description>
@@ -41,14 +56,6 @@
 				</ul>
 			]]></description>
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37395822" type="application/octet-stream" sparkle:edSignature="6aGA3NKaTPfOzzZq23i4Mz9L8NdacJB0gOsOOhrW9M6goA2a2anf3ICiw2opiSqU9eNhFizIBhOZFNt4KVExAA=="/>
-        </item>
-        <item>
-            <title>1.1</title>
-            <pubDate>Sat, 09 Mar 2024 19:46:18 +0300</pubDate>
-            <sparkle:version>105</sparkle:version>
-            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="37396378" type="application/octet-stream" sparkle:edSignature="pKLwUnA8jgKLdofqtjiQsxmgdiagsue0aye8eQub7TJu2FkAwsUH8eT9usOD5GpeQNOBKz2Pj+PUywYCXPVNDQ=="/>
         </item>
     </channel>
 </rss>
