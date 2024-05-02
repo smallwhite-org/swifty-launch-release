@@ -17,8 +17,9 @@
 				<li><b>Added to AnalyticsKit:</b> Crash Detection ⛓️‍💥</li>
 				<li><b>New Feature:</b> Easily Request Capability Permission (Camera, Location, etc.) ✅ </li>
 				<li><b>New Feature:</b> Ask users to review your App ⭐️ </li>
-				<li><b>QOL</b> Increased coverage of AnalyticsKit event and error tracking</li>
+				<li><b>QOL:</b> Increased coverage of AnalyticsKit event and error tracking</li>
 				<li><b>Bug Fixes and Other Improvements</b></li>
+				<li><b>Known Bug:</b> Post-Generation Text-Formatting does not work on Intel-based systems and may result in not so pretty looking code. Fix coming soon. </li>
 				</ul>
 			]]></description>
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="130991496" type="application/octet-stream" sparkle:edSignature="1jGqT8AC4n0xt89iOz8Fm8FcYgoFJ/75s3mZ6akKD0InVrou0P0PN4xVH/ceKofzbwHu8RglOkUeB8BDf+74AA=="/>
