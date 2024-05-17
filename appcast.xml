@@ -3,12 +3,46 @@
     <channel>
         <title>SwiftyLaunch</title>
         <item>
+            <title>1.3.1</title>
+            <pubDate>Fri, 17 May 2024 21:22:36 +0200</pubDate>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+			<description><![CDATA[
+				<h2>Release 1.3.1</h2>
+				Click <a href="https://swiftylaun.ch/blog/introducing-update-1-3">here</a> to read about update 1.3
+				What's new:
+				<b>$55,000 of PostHog Credits for SwiftyLaunch Customers! ⚡️❤️🦔</b>
+				<ul>
+					<li>We partnered up with PostHog to help you out on your development journey! Details on how to claim the $55,000 in credits can be found on the framework selection screen</li>
+				</ul>
+				<b>New Features</b>
+				<ul>
+					<li>You can now select your own App Icon and Accent Color during project generation!</li>
+					<li>We’ve updated the backend code to utilize OpenAI’s new GPT-4o in AIKit (instead of GPT-4 Turbo). Read more about GPT-4o API improvements <a href="https://community.openai.com/t/announcing-gpt-4o-in-the-api/744700">here</a></li>
+					<li>We also tweaked SwiftyLaunch's User Interface in many small ways. Hope you'll like the changes!</li>
+				</ul>
+				<b>Fixes</b>
+				<ul>
+					<li>Error for a missing Node.js installation is now displayed correctly</li>
+					<li>Added detection for different types of Node.js installation (SwiftyLaunch can now see that you've already installed Node with brew! No need to install it again)</li>
+					<li>Fixed the post-generation code formatting script on Intel systems</li>
+					<li>Fixed inability to generate projects with AuthKit & DBKit disabled</li>
+					<li>Onboarding Views in the generated App is now being shown as expected</li>
+					<li>Fixed some OS version deprecation warnings</li>
+					<li>Fixed other edge case generation bugs 🐞</li>
+				</ul>
+				Thanks to everyone who reported these issues! Together we make SwiftyLaunch a better platform for all iOS Developers out there 🚀
+			]]></description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="145694666" type="application/octet-stream" sparkle:edSignature="vV2nXzGX9QicqnV6rNIFqZoBY8VkaHQqbpbQB9cJfH4mCz+lNhE9A1yXlpsPKZgVXRePi1Dne+TzEFtEvU1cDg=="/>
+        </item>
+        <item>
             <title>1.3</title>
             <pubDate>Fri, 01 May 2024 00:00:00 +0200</pubDate>
             <sparkle:version>109</sparkle:version>
             <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-			<description><![CDATA[
+            <description><![CDATA[
 				<h2>Release 1.3.0</h2>
 				Read about this <a href="https://swiftylaun.ch/blog/introducing-update-1-3">in our blog.</a>
 				<ul>
@@ -17,9 +51,8 @@
 				<li><b>Added to AnalyticsKit:</b> Crash Detection ⛓️‍💥</li>
 				<li><b>New Feature:</b> Easily Request Capability Permission (Camera, Location, etc.) ✅ </li>
 				<li><b>New Feature:</b> Ask users to review your App ⭐️ </li>
-				<li><b>QOL:</b> Increased coverage of AnalyticsKit event and error tracking</li>
+				<li><b>QOL</b> Increased coverage of AnalyticsKit event and error tracking</li>
 				<li><b>Bug Fixes and Other Improvements</b></li>
-				<li><b>Known Bug:</b> Post-Generation Text-Formatting does not work on Intel-based systems and may result in not so pretty looking code. Fix coming soon. </li>
 				</ul>
 			]]></description>
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="130991496" type="application/octet-stream" sparkle:edSignature="1jGqT8AC4n0xt89iOz8Fm8FcYgoFJ/75s3mZ6akKD0InVrou0P0PN4xVH/ceKofzbwHu8RglOkUeB8BDf+74AA=="/>
@@ -38,28 +71,6 @@
 				</ul>
 			]]></description>
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="43204529" type="application/octet-stream" sparkle:edSignature="7vZX2T0rZw2xnDoC7hTllfWXbWQvtnfsCCeXPeIsRKvUGe/OTAIzFBN29kxJh1wm0/fkL6qa02GZDePPG1+TAg=="/>
-        </item>
-        <item>
-            <title>1.2</title>
-            <pubDate>Tue, 02 Apr 2024 01:11:09 +0200</pubDate>
-            <sparkle:version>107</sparkle:version>
-            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-				<h2>Release 1.2</h2>
-				Read about this <a href="https://swiftylaun.ch/blog/introducing-update-1-2">in our blog.</a>
-				<ul>
-				<li><b>New Feature:</b> Backend Boilerplate ⚙️</li>
-				<li><b>New Feature:</b> Individual Framework Selection ☑️</li>
-				<li><b>New Feature:</b> Biometric Auth 🔒</li>
-				<li><b>New Feature:</b> Easy-to-use Haptics 📳</li>
-				<li><b>New Feature:</b> Launch Screen 📲</li>
-				<li><b>New Feature:</b> Automatic Notification Routing ↩️🔔</li>
-				<li><b>QOL</b> Over 15 convenience functions added!</li>
-				<li><b>Bug Fixes and Other Improvements</b></li>
-				</ul>
-			]]></description>
-            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="43162636" type="application/octet-stream" sparkle:edSignature="26eicPdr5oWEv6fat7CKNONZK9XHOReBFYgAWlj83P1fmeQ/S2fSiqzmGWLylrE3D5LvFYKswJba02IndBwTAw=="/>
         </item>
     </channel>
 </rss>
