@@ -11,9 +11,13 @@
 			<description><![CDATA[
 				<h2>Release 1.4.0</h2>
 				<b>Important: SwiftyLaunch now requires at least Xcode 15, and macOS Ventura 13.5 or higher. Xcode 16 & macOS Sequoia recommended.</b>
+				<br/>
 				Click <a href="https://swiftylaun.ch/blog/introducing-update-1-4">here</a> to read the blog post
+				<br/>
 				Click <a href="https://swiftylaun.ch/patch-notes/1-4-0">here</a> to read full patch notes
+				<br/>
 				Overview of what's new:
+				<br/>
 				<b>New Additions</b>
 				<ul>
 				<li>Added iPad Support</li>
