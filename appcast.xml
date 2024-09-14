@@ -3,12 +3,38 @@
     <channel>
         <title>SwiftyLaunch</title>
         <item>
+            <title>1.4.0.1</title>
+            <pubDate>Sat, 14 Sep 2024 10:14:01 +0200</pubDate>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>1.4.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
+			<description><![CDATA[
+				<h2>Release 1.4.0</h2>
+				<b>Important: SwiftyLaunch now requires at least Xcode 15, and macOS Ventura 13.5 or higher. Xcode 16 & macOS Sequoia recommended.</b>
+				Click <a href="https://swiftylaun.ch/blog/introducing-update-1-4">here</a> to read the blog post
+				Click <a href="https://swiftylaun.ch/patch-notes/1-4-0">here</a> to read full patch notes
+				Overview of what's new:
+				<b>New Additions</b>
+				<ul>
+				<li>Added iPad Support</li>
+				<li>Generated apps are now iOS 18-ready</li>
+				<li>AdsKit is available</li>
+				<li>PostHog Session Recordings added to AnalyticsKit</li>
+				<li>Complete SwiftyLaunch App Redesign</li>
+				<li>Added ability to set default new project settings</li>
+				<li>Added ability to add Tuist to newly generated apps</li>
+				</ul>
+				Plus a lot more... Refer to the <a href="https://swiftylaun.ch/patch-notes/1-4-0">patch notes</a> to read everything that's new.
+			]]></description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="53339612" type="application/octet-stream" sparkle:edSignature="/QuHscjfCa+MzLpvcQ1oOw1luk4C4wu9k2xtKzNbP1SBHGPEs8XrwQeXcFbH1Wcx5W/vI8qp774L2JOF1+CPBg=="/>
+        </item>
+        <item>
             <title>1.4</title>
             <pubDate>Fri, 13 Sep 2024 22:19:06 +0200</pubDate>
             <sparkle:version>114</sparkle:version>
             <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
-			<description><![CDATA[
+            <description><![CDATA[
 				<h2>Release 1.4.0</h2>
 				<b>Important: SwiftyLaunch now requires at least Xcode 15, and macOS Ventura 13.5 or higher. Xcode 16 & macOS Sequoia recommended.</b>
 				Click <a href="https://swiftylaun.ch/blog/introducing-update-1-4">here</a> to read the blog post
