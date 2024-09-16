@@ -15,16 +15,15 @@
 				<br/>
 				Overview of what's new:
 				<br/>
-				<b>Changes:</b>
+				<h3>Changes:</h3>
 				<ul>
 				<li>Moved in-app notifications-related, showSignInSheet()-related and askUserFor()-related constants to Constants.swift </li>
 				</ul>
-				<b>Bug Fixes:</b>
+				<h3>Bug Fixes:</h3>
 				<ul>
 				<li>Fixed a bug that would cause a crash when certain app icons were selected during project generation</li>
 				<li>Fixed a bug that would allow users to start a project generation with some of the app icons not selected, which would result in a crash</li>
 				</ul>
-				<br/>
 				<br/>
 				<h2>Release 1.4.0</h2>
 				<b>Important: SwiftyLaunch now requires at least Xcode 15, and macOS Ventura 13.5 or higher. Xcode 16 & macOS Sequoia recommended.</b>
@@ -37,7 +36,7 @@
 				<br/>
 				Overview of what's new:
 				<br/>
-				<b>New Additions</b>
+				<h3>New Additions</h3>
 				<ul>
 				<li>Added iPad Support</li>
 				<li>Generated apps are now iOS 18-ready</li>
@@ -69,6 +68,7 @@
 				<br/>
 				Overview of what's new:
 				<br/>
+		    		<br/>
 				<b>New Additions</b>
 				<ul>
 				<li>Added iPad Support</li>
