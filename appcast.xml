@@ -3,17 +3,72 @@
     <channel>
         <title>SwiftyLaunch</title>
         <item>
+            <title>1.4.0.2</title>
+            <pubDate>Mon, 16 Sep 2024 16:32:05 +0200</pubDate>
+            <sparkle:version>117</sparkle:version>
+            <sparkle:shortVersionString>1.4.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
+			<description><![CDATA[
+				<h2>Release 1.4.0.2</h2>
+				<b>Important: SwiftyLaunch now requires at least Xcode 15, and macOS Ventura 13.5 or higher. Xcode 16 & macOS Sequoia recommended.</b>
+				<br/>
+				<br/>
+				Overview of what's new:
+				<br/>
+				<b>Changes:</b>
+				<ul>
+				<li>Moved in-app notifications-related, showSignInSheet()-related and askUserFor()-related constants to Constants.swift </li>
+				</ul>
+				<b>Bug Fixes:</b>
+				<ul>
+				<li>Fixed a bug that would cause a crash when certain app icons were selected during project generation</li>
+				<li>Fixed a bug that would allow users to start a project generation with some of the app icons not selected, which would result in a crash</li>
+				</ul>
+				<br/>
+				<br/>
+				<h2>Release 1.4.0</h2>
+				<b>Important: SwiftyLaunch now requires at least Xcode 15, and macOS Ventura 13.5 or higher. Xcode 16 & macOS Sequoia recommended.</b>
+				<br/>
+				<br/>
+				Click <a href="https://swiftylaun.ch/blog/introducing-update-1-4">here</a> to read the blog post
+				<br/>
+				Click <a href="https://swiftylaun.ch/patch-notes/1-4-0">here</a> to read full patch notes
+				<br/>
+				<br/>
+				Overview of what's new:
+				<br/>
+				<b>New Additions</b>
+				<ul>
+				<li>Added iPad Support</li>
+				<li>Generated apps are now iOS 18-ready</li>
+				<li>AdsKit is available</li>
+				<li>PostHog Session Recordings added to AnalyticsKit</li>
+				<li>Complete SwiftyLaunch App Redesign</li>
+				<li>Added ability to set default new project settings</li>
+				<li>Added ability to add Tuist to newly generated apps</li>
+				</ul>
+				Plus a lot more... Refer to the <a href="https://swiftylaun.ch/patch-notes/1-4-0">patch notes</a> to read everything that's new.
+			]]></description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="52450605" type="application/octet-stream" sparkle:edSignature="OvxavDs/xNWSa8tO3V8W2C/L64eetXS4hLUeWaG29MmyxasSYqvwtcyJCn9e5T0jjD65jTymHF+4o5Unefa/Aw=="/>
+        </item>
+        <item>
             <title>1.4.0.1</title>
             <pubDate>Sat, 14 Sep 2024 10:14:01 +0200</pubDate>
             <sparkle:version>115</sparkle:version>
             <sparkle:shortVersionString>1.4.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
-			<description><![CDATA[
+            <description><![CDATA[
 				<h2>Release 1.4.0</h2>
 				<b>Important: SwiftyLaunch now requires at least Xcode 15, and macOS Ventura 13.5 or higher. Xcode 16 & macOS Sequoia recommended.</b>
+				<br/>
+				<br/>
 				Click <a href="https://swiftylaun.ch/blog/introducing-update-1-4">here</a> to read the blog post
+				<br/>
 				Click <a href="https://swiftylaun.ch/patch-notes/1-4-0">here</a> to read full patch notes
+				<br/>
+				<br/>
 				Overview of what's new:
+				<br/>
 				<b>New Additions</b>
 				<ul>
 				<li>Added iPad Support</li>
@@ -37,9 +92,15 @@
             <description><![CDATA[
 				<h2>Release 1.4.0</h2>
 				<b>Important: SwiftyLaunch now requires at least Xcode 15, and macOS Ventura 13.5 or higher. Xcode 16 & macOS Sequoia recommended.</b>
+				<br/>
+				<br/>
 				Click <a href="https://swiftylaun.ch/blog/introducing-update-1-4">here</a> to read the blog post
+				<br/>
 				Click <a href="https://swiftylaun.ch/patch-notes/1-4-0">here</a> to read full patch notes
+				<br/>
+				<br/>
 				Overview of what's new:
+				<br/>
 				<b>New Additions</b>
 				<ul>
 				<li>Added iPad Support</li>
