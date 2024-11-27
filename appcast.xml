@@ -3,12 +3,41 @@
     <channel>
         <title>SwiftyLaunch</title>
         <item>
+            <title>1.5.0</title>
+            <pubDate>Wed, 27 Nov 2024 16:49:50 +0100</pubDate>
+            <sparkle:version>126</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+			<description><![CDATA[
+				<h2>Release 1.5.0</h2>
+				<b>Important: SwiftyLaunch now requires at least Xcode 15.3, and macOS Sonoma 14.0 or higher. Xcode 16 & macOS Sequoia recommended.</b>
+				<br/>
+				<br/>
+				Click <a href="https://swiftylaun.ch/blog/introducing-update-1-5">here</a> to read the blog post
+				<br/>
+				<br/>
+				Overview of what's new:
+				<br/>
+				<b>New Additions</b>
+				<ul>
+				<li>Supabase Integration Preview</li>
+				<li>Automatic Provider Linking</li>
+				<li>Granular Module Settings</li>
+				<li>Improved UI & UX</li>
+				<li>Preventive Checks to avoid common errors</li>
+				<li>Removed SlideOverCard Dependency in generated apps</li>
+				<li>Bug fixes</li>
+				</ul>
+			]]></description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="53526496" type="application/octet-stream" sparkle:edSignature="w3WjUsZieyjQwqWHpixuubHVZH1KPSbYoat0is1cdujaCHbSNlUaXt+3I1LMz9P09HrhmPHjN7ZYRY1ZQNcUAw=="/>
+        </item>
+        <item>
             <title>1.4.1</title>
             <pubDate>Fri, 11 Oct 2024 11:36:03 +0200</pubDate>
             <sparkle:version>119</sparkle:version>
             <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
-			<description><![CDATA[
+            <description><![CDATA[
 				<h2>Release 1.4.1</h2>
 				<b>Important: SwiftyLaunch now requires at least Xcode 15, and macOS Ventura 13.5 or higher. Xcode 16 & macOS Sequoia recommended.</b>
 				<br/>
