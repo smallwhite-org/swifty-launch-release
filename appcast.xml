@@ -3,12 +3,57 @@
     <channel>
         <title>SwiftyLaunch</title>
         <item>
+            <title>1.5.0.1</title>
+            <pubDate>Fri, 29 Nov 2024 18:23:16 +0100</pubDate>
+            <sparkle:version>127</sparkle:version>
+            <sparkle:shortVersionString>1.5.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+			<description><![CDATA[
+				<h2>Patch 1.5.0.1</h2>
+				<b>Important: SwiftyLaunch now requires at least Xcode 15.3, and macOS Sonoma 14.0 or higher. Xcode 16 & macOS Sequoia recommended.</b>
+				<br/>
+				<br/>
+				<br/>
+				Overview of what's new:
+				<br/>
+				<ul>
+				<li>Fixed an issue with "Unsupported Version" screen showing up too agressively. We tuned our feature flags logic and this should work as intended now.</li>
+				<li>Fixed leftover generation artifacts when AnalyticsKit was not selected with AuthKit & DBKit.</li>
+				<li>Fixed an edge case bug where SwiftyLaunch couldn't detect an accepted Xcode license agremeent.</li>
+				<li>Xcode can't handle underscores in bundle IDs. SwiftyLaunch allowed you to do that. This caused a generation error. Sorry. Updated the allowed characters list for App Name and Bundle ID</li>
+				<li>Added a close button to the required components sheet as you couldn't otherwise close the app without force-quitting</li>
+				</ul>
+				<br/>
+				<br/>
+				<h2>Release 1.5.0</h2>
+				<b>Important: SwiftyLaunch now requires at least Xcode 15.3, and macOS Sonoma 14.0 or higher. Xcode 16 & macOS Sequoia recommended.</b>
+				<br/>
+				<br/>
+				Click <a href="https://swiftylaun.ch/blog/introducing-update-1-5">here</a> to read the blog post
+				<br/>
+				<br/>
+				Overview of what's new:
+				<br/>
+				<b>New Additions</b>
+				<ul>
+				<li>Supabase Integration Preview</li>
+				<li>Automatic Provider Linking</li>
+				<li>Granular Module Settings</li>
+				<li>Improved UI & UX</li>
+				<li>Preventive Checks to avoid common errors</li>
+				<li>Removed SlideOverCard Dependency in generated apps</li>
+				<li>Bug fixes</li>
+				</ul>
+			]]></description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="53521783" type="application/octet-stream" sparkle:edSignature="bW5//xHL6lA+qH9YWRrJcebplclfW3WyChIv3annM+9jhscecBMd9E2awIXVsJKcNRtsXN/pOSvZLIxD96BLCw=="/>
+        </item>
+        <item>
             <title>1.5.0</title>
             <pubDate>Wed, 27 Nov 2024 16:49:50 +0100</pubDate>
             <sparkle:version>126</sparkle:version>
             <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-			<description><![CDATA[
+            <description><![CDATA[
 				<h2>Release 1.5.0</h2>
 				<b>Important: SwiftyLaunch now requires at least Xcode 15.3, and macOS Sonoma 14.0 or higher. Xcode 16 & macOS Sequoia recommended.</b>
 				<br/>
