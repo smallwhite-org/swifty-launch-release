@@ -11,7 +11,6 @@
 			<description><![CDATA[
 				<h2>Update 1.5.1</h2>
 				<p>In this release we are focused on reducing the amount of generation errors for our users. QoL, QoL, QoL!</p>
-				<br/>
 				<ul>
 				<li>On first app launch, SwiftyLaunch will now perform an extensive check for common generation errors, and make sure that all modules work correctly.</li>
 				<li>NO MORE BEACH BALLS DURING GENERATIONS! We adapted the generation to not run on main thread, so the UI doesn't get "stuck" during generation anymore. This confused many to think that SwiftyLaunch crashed. It did not. But now it's clearer for you.</li>
@@ -22,10 +21,8 @@
 				<li>Fixed generation artifacts in BackendKit for some module combinations.</li>
 				</ul>
 				<br/>
-				<br/>
 				<h2>Patch 1.5.0.1</h2>
 				<b>Important: SwiftyLaunch now requires at least Xcode 15.3, and macOS Sonoma 14.0 or higher. Xcode 16 & macOS Sequoia recommended.</b>
-				<br/>
 				<br/>
 				<br/>
 				Overview of what's new:
@@ -37,7 +34,6 @@
 				<li>Xcode can't handle underscores in bundle IDs. SwiftyLaunch allowed you to do that. This caused a generation error. Sorry. Updated the allowed characters list for App Name and Bundle ID</li>
 				<li>Added a close button to the required components sheet as you couldn't otherwise close the app without force-quitting</li>
 				</ul>
-				<br/>
 				<br/>
 				<h2>Release 1.5.0</h2>
 				<b>Important: SwiftyLaunch now requires at least Xcode 15.3, and macOS Sonoma 14.0 or higher. Xcode 16 & macOS Sequoia recommended.</b>
