@@ -3,14 +3,44 @@
     <channel>
         <title>SwiftyLaunch</title>
         <item>
+            <title>2.0</title>
+            <pubDate>Tue, 08 Apr 2025 22:00:00 +0200</pubDate>
+            <sparkle:version>131</sparkle:version>
+            <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+			<description><![CDATA[
+				<h2>Release 2.0</h2>
+				<p>Introducing the SwiftyLaunch Web Package, SwiftyLaunch Partner Program, and over 30 other additions!</p>
+				<br/>
+				<br/>
+				Click <a href="https://swiftylaun.ch/blog/introducing-update-2-0">here</a> to read the blog post.
+				<br/>
+				<br/>
+				Overview of what's new:
+				<br/>
+				<b>New Additions</b>
+				<ul>
+				<li>🌐 New Package: SwiftyLaunch for Web - Upgrade your license and let SwiftyLaunch generate stunning landing pages for your Apps.</li>
+				<li>🤑 SwiftyLaunch Partner Program: Become a Partner and earn 50% from SwiftyLaunch Sale referrals!</li>
+				<li>🎨 3 New App Styles: You can now choose between "Native", "Lollipop" and "Neobrutalism" styles for your iOS Applications.</li>
+				<li>✨ Redesigned App Setup Process: Now with even more setup options and better organization</li>
+				<li>🔧 Git Repo Automation: SwiftyLaunch can now initialze a Git repo with the necessary .gitignore file and add an initial commit on your behalf.</li>
+				<li>🛜 New View Modifier: .requireNetwork()</li>
+				<li>Also a completely reworked foundation, completely reworked licensing system, loads of bug fixes and other improvements...</li>
+				</ul>
+			]]></description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="105587164" type="application/octet-stream" sparkle:edSignature="3OUkfsFBRdbwQ9OFlake5DepWqsyTw+WTGp/1Rv1yZUbFVPpfHO7KgohSLWVCuZYGFo/BS2J8EpvZnnV5HKUDw=="/>
+        </item>
+        <item>
             <title>1.5.1</title>
             <pubDate>Thu, 05 Dec 2024 23:13:51 +0100</pubDate>
             <sparkle:version>128</sparkle:version>
             <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-			<description><![CDATA[
+            <description><![CDATA[
 				<h2>Update 1.5.1</h2>
 				<p>In this release we are focused on reducing the amount of generation errors for our users. QoL, QoL, QoL!</p>
+				<br/>
 				<ul>
 				<li>On first app launch, SwiftyLaunch will now perform an extensive check for common generation errors, and make sure that all modules work correctly.</li>
 				<li>NO MORE BEACH BALLS DURING GENERATIONS! We adapted the generation to not run on main thread, so the UI doesn't get "stuck" during generation anymore. This confused many to think that SwiftyLaunch crashed. It did not. But now it's clearer for you.</li>
@@ -21,8 +51,10 @@
 				<li>Fixed generation artifacts in BackendKit for some module combinations.</li>
 				</ul>
 				<br/>
+				<br/>
 				<h2>Patch 1.5.0.1</h2>
 				<b>Important: SwiftyLaunch now requires at least Xcode 15.3, and macOS Sonoma 14.0 or higher. Xcode 16 & macOS Sequoia recommended.</b>
+				<br/>
 				<br/>
 				<br/>
 				Overview of what's new:
@@ -34,6 +66,7 @@
 				<li>Xcode can't handle underscores in bundle IDs. SwiftyLaunch allowed you to do that. This caused a generation error. Sorry. Updated the allowed characters list for App Name and Bundle ID</li>
 				<li>Added a close button to the required components sheet as you couldn't otherwise close the app without force-quitting</li>
 				</ul>
+				<br/>
 				<br/>
 				<h2>Release 1.5.0</h2>
 				<b>Important: SwiftyLaunch now requires at least Xcode 15.3, and macOS Sonoma 14.0 or higher. Xcode 16 & macOS Sequoia recommended.</b>
@@ -55,7 +88,6 @@
 				<li>Bug fixes</li>
 				</ul>
 			]]></description>
-
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="53759484" type="application/octet-stream" sparkle:edSignature="z6WLm5FN/Oitz39A2Gz+zBa8pnHV+siKoF1gtCbylh6+s95N15Nat+iZabDPifQsxfCrM3tkHJ1KJQ9FNzDeCQ=="/>
         </item>
         <item>
@@ -102,35 +134,6 @@
 				</ul>
 			]]></description>
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="53521783" type="application/octet-stream" sparkle:edSignature="bW5//xHL6lA+qH9YWRrJcebplclfW3WyChIv3annM+9jhscecBMd9E2awIXVsJKcNRtsXN/pOSvZLIxD96BLCw=="/>
-        </item>
-        <item>
-            <title>1.5.0</title>
-            <pubDate>Wed, 27 Nov 2024 16:49:50 +0100</pubDate>
-            <sparkle:version>126</sparkle:version>
-            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-				<h2>Release 1.5.0</h2>
-				<b>Important: SwiftyLaunch now requires at least Xcode 15.3, and macOS Sonoma 14.0 or higher. Xcode 16 & macOS Sequoia recommended.</b>
-				<br/>
-				<br/>
-				Click <a href="https://swiftylaun.ch/blog/introducing-update-1-5">here</a> to read the blog post
-				<br/>
-				<br/>
-				Overview of what's new:
-				<br/>
-				<b>New Additions</b>
-				<ul>
-				<li>Supabase Integration Preview</li>
-				<li>Automatic Provider Linking</li>
-				<li>Granular Module Settings</li>
-				<li>Improved UI & UX</li>
-				<li>Preventive Checks to avoid common errors</li>
-				<li>Removed SlideOverCard Dependency in generated apps</li>
-				<li>Bug fixes</li>
-				</ul>
-			]]></description>
-            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="53526496" type="application/octet-stream" sparkle:edSignature="w3WjUsZieyjQwqWHpixuubHVZH1KPSbYoat0is1cdujaCHbSNlUaXt+3I1LMz9P09HrhmPHjN7ZYRY1ZQNcUAw=="/>
         </item>
         <item>
             <title>1.4.1</title>
