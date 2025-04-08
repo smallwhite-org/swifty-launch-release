@@ -2,6 +2,35 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>SwiftyLaunch</title>
+	<item>
+            <title>2.0</title>
+            <pubDate>Tue, 08 Apr 2025 22:00:00 +0200</pubDate>
+            <sparkle:version>131</sparkle:version>
+            <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+			<description><![CDATA[
+				<h2>Release 2.0</h2>
+				<p>Introducing the SwiftyLaunch Web Package, SwiftyLaunch Partner Program, and over 30 other additions!</p>
+				<br/>
+				<br/>
+				Click <a href="https://swiftylaun.ch/blog/introducing-update-2-0">here</a> to read the blog post.
+				<br/>
+				<br/>
+				Overview of what's new:
+				<br/>
+				<b>New Additions</b>
+				<ul>
+				<li>🌐 New Package: SwiftyLaunch for Web - Upgrade your license and let SwiftyLaunch generate stunning landing pages for your Apps.</li>
+				<li>🤑 SwiftyLaunch Partner Program: Become a Partner and earn 50% from SwiftyLaunch Sale referrals!</li>
+				<li>🎨 3 New App Styles: You can now choose between "Native", "Lollipop" and "Neobrutalism" styles for your iOS Applications.</li>
+				<li>✨ Redesigned App Setup Process: Now with even more setup options and better organization</li>
+				<li>🔧 Git Repo Automation: SwiftyLaunch can now initialze a Git repo with the necessary .gitignore file and add an initial commit on your behalf.</li>
+				<li>🛜 New View Modifier: .requireNetwork()</li>
+				<li>Also a completely reworked foundation, completely reworked licensing system, loads of bug fixes and other improvements...</li>
+				</ul>
+			]]></description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="105587164" type="application/octet-stream" sparkle:edSignature="3OUkfsFBRdbwQ9OFlake5DepWqsyTw+WTGp/1Rv1yZUbFVPpfHO7KgohSLWVCuZYGFo/BS2J8EpvZnnV5HKUDw=="/>
+        </item>
         <item>
             <title>1.5.1</title>
             <pubDate>Thu, 05 Dec 2024 23:13:51 +0100</pubDate>
