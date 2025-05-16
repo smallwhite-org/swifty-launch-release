@@ -2,13 +2,30 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>SwiftyLaunch</title>
-	<item>
+        <item>
+            <title>2.0.1</title>
+            <pubDate>Fri, 16 May 2025 14:53:01 +0200</pubDate>
+            <sparkle:version>132</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+			<description><![CDATA[
+				<h2>Patch 2.0.1</h2>
+				<ul>
+				<li>Fixed SPM Errors occuring related to OneSignal 5.2.11 release</li>
+				<li>Added a hint that the onboarding is skippable</li>
+				<li>Added the option to skip the app preparation that occurs on first launch</li>
+				<li>Web: Fixed the issue that env.ts had AnalyticsKit related entries, even if AnalyticsKit wasn't enabled.</li>
+				</ul>
+			]]></description>
+            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="105669190" type="application/octet-stream" sparkle:edSignature="VBljnhKuH2mPEIpaXwdwYIBVNffgDfIEx7HQeIKPC7WrIA6IwDKsevpEV7tMVz8LfFCsuiz6qHYFX/1iWaO2Dg=="/>
+        </item>
+        <item>
             <title>2.0</title>
             <pubDate>Tue, 08 Apr 2025 22:00:00 +0200</pubDate>
             <sparkle:version>131</sparkle:version>
             <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-			<description><![CDATA[
+            <description><![CDATA[
 				<h2>Release 2.0</h2>
 				<p>Introducing the SwiftyLaunch Web Package, SwiftyLaunch Partner Program, and over 30 other additions!</p>
 				<br/>
@@ -88,51 +105,6 @@
 				</ul>
 			]]></description>
             <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="53759484" type="application/octet-stream" sparkle:edSignature="z6WLm5FN/Oitz39A2Gz+zBa8pnHV+siKoF1gtCbylh6+s95N15Nat+iZabDPifQsxfCrM3tkHJ1KJQ9FNzDeCQ=="/>
-        </item>
-        <item>
-            <title>1.5.0.1</title>
-            <pubDate>Fri, 29 Nov 2024 18:23:16 +0100</pubDate>
-            <sparkle:version>127</sparkle:version>
-            <sparkle:shortVersionString>1.5.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-				<h2>Patch 1.5.0.1</h2>
-				<b>Important: SwiftyLaunch now requires at least Xcode 15.3, and macOS Sonoma 14.0 or higher. Xcode 16 & macOS Sequoia recommended.</b>
-				<br/>
-				<br/>
-				<br/>
-				Overview of what's new:
-				<br/>
-				<ul>
-				<li>Fixed an issue with "Unsupported Version" screen showing up too agressively. We tuned our feature flags logic and this should work as intended now.</li>
-				<li>Fixed leftover generation artifacts when AnalyticsKit was not selected with AuthKit & DBKit.</li>
-				<li>Fixed an edge case bug where SwiftyLaunch couldn't detect an accepted Xcode license agremeent.</li>
-				<li>Xcode can't handle underscores in bundle IDs. SwiftyLaunch allowed you to do that. This caused a generation error. Sorry. Updated the allowed characters list for App Name and Bundle ID</li>
-				<li>Added a close button to the required components sheet as you couldn't otherwise close the app without force-quitting</li>
-				</ul>
-				<br/>
-				<br/>
-				<h2>Release 1.5.0</h2>
-				<b>Important: SwiftyLaunch now requires at least Xcode 15.3, and macOS Sonoma 14.0 or higher. Xcode 16 & macOS Sequoia recommended.</b>
-				<br/>
-				<br/>
-				Click <a href="https://swiftylaun.ch/blog/introducing-update-1-5">here</a> to read the blog post
-				<br/>
-				<br/>
-				Overview of what's new:
-				<br/>
-				<b>New Additions</b>
-				<ul>
-				<li>Supabase Integration Preview</li>
-				<li>Automatic Provider Linking</li>
-				<li>Granular Module Settings</li>
-				<li>Improved UI & UX</li>
-				<li>Preventive Checks to avoid common errors</li>
-				<li>Removed SlideOverCard Dependency in generated apps</li>
-				<li>Bug fixes</li>
-				</ul>
-			]]></description>
-            <enclosure url="https://github.com/smallwhite-org/swifty-launch-release/releases/download/prod/SwiftyLaunch.dmg" length="53521783" type="application/octet-stream" sparkle:edSignature="bW5//xHL6lA+qH9YWRrJcebplclfW3WyChIv3annM+9jhscecBMd9E2awIXVsJKcNRtsXN/pOSvZLIxD96BLCw=="/>
         </item>
         <item>
             <title>1.4.1</title>
